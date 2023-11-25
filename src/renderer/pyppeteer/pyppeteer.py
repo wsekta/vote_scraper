@@ -13,7 +13,7 @@ class Pyppeteer(renderer.Renderer):
 
     await page.goto(url)
 
-    await page.waitForNavigation({"waitUntil": 'networkidle0',})
+    await page.waitForNavigation({"waitUntil": 'networkidle0', "timeout": 15000})
 
     htmlContent = await page.content()
 
