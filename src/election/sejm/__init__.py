@@ -1,0 +1,1 @@
+from .sejm_election import SejmElection
