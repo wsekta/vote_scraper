@@ -1,1 +1,0 @@
-from .beautifulsoup import BeautifulSoup

@@ -1,4 +1,4 @@
 class Party:
-  def __init__(self) -> None:
-    self.name = ""
-    self.votes = 0
+  def __init__(self, name: str = "", votes: int = 0) -> None:
+    self.name = name
+    self.votes = votes

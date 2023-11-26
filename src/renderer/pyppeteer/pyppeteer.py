@@ -1,9 +1,9 @@
-import renderer
+from src.renderer import Renderer
 
 import asyncio
 from pyppeteer import launch
 
-class Pyppeteer(renderer.Renderer):
+class Pyppeteer(Renderer):
   async def load(self, url: str) -> str:
     browserObj = browser = await launch(
             headless=True, 
