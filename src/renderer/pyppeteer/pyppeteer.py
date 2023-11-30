@@ -5,7 +5,7 @@ from pyppeteer import launch
 
 class Pyppeteer(Renderer):
   async def load(self, url: str) -> str:
-    browserObj = browser = await launch(
+    browserObj = await launch(
             headless=True, 
             args=['--no-sandbox'])
     
