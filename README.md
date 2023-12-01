@@ -1,2 +1,2 @@
 # vote_scraper
-Scraper for Polish voting results
+Scraper for Polish voting results.
